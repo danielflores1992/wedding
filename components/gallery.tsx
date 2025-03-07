@@ -16,6 +16,10 @@ export default function Gallery() {
     "/img/img4.jpg?height=600&width=800",
     "/img/img5.jpg?height=600&width=800",
     "/img/img6.jpg?height=600&width=800",
+    "/img/img7.jpg?height=600&width=800",
+    "/img/img8.jpg?height=600&width=800",
+    "/img/img9.jpg?height=600&width=800",
+    "/img/img10.jpg?height=600&width=800",
   ]
 
 

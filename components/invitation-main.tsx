@@ -65,7 +65,7 @@ export default function InvitationMain({ weddingDate }: InvitationMainProps) {
             variants={textVariants}
             className="text-lg md:text-xl text-[#8b9b8b] max-w-xl mx-auto my-8"
           >
-            Y nos encantaría celebrar este día tan especial junto a ti!
+            ¡Y nos encantaría celebrar <br></br>este día tan especial junto a ti!
           </motion.p>
 
           <motion.div
