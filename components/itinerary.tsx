@@ -41,8 +41,8 @@ export default function Itinerary() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-4xl font-light text-[#8a7f71] mb-4">Itinerario</h2>
-          <p className="text-lg text-[#a39a8e] max-w-2xl mx-auto">Acompáñanos en cada momento de nuestra celebración</p>
+          <h2 className="text-3xl md:text-4xl font-light text-[#55104d] mb-4">Itinerario</h2>
+          <p className="text-lg text-[#86895d] max-w-2xl mx-auto">Acompáñanos en cada momento de nuestra celebración</p>
         </motion.div>
 
         <div className="max-w-3xl mx-auto">
@@ -79,13 +79,13 @@ function TimelineEvent({ time, title, description, delay, index }: TimelineEvent
       viewport={{ once: true }}
       className="mb-12 text-center"
     >
-      <div className="inline-block bg-[#faf9f6] px-4 py-2 rounded-full border border-[#e9e4dd] mb-3">
-        <span className="text-[#8a7f71] font-light">{time}</span>
+      <div className="inline-block bg-[#55104d] px-4 py-2 rounded-full border border-[#e9e4dd] mb-3">
+        <span className="text-[#faf9f6] font-light">{time}</span>
       </div>
-      <h3 className="text-xl md:text-2xl font-light text-[#8a7f71] mb-2">{title}</h3>
-      <p className="text-[#a39a8e]">{description}</p>
+      <h3 className="text-xl md:text-2xl font-bold text-[#8a7f71] mb-2">{title}</h3>
+      <p className="text-[#86895d]">{description}</p>
 
-      {index < 4 && <div className="w-px h-12 bg-[#e9e4dd] mx-auto mt-6"></div>}
+      {index < 4 && <div className="w-px h-12 bg-[#55104d] mx-auto mt-6"></div>}
     </motion.div>
   )
 }

@@ -38,9 +38,14 @@ export default function CountdownTimer({ targetDate }: CountdownTimerProps) {
 
   return (
     <section className="py-16 bg-white relative overflow-hidden">
-      <AnimatedFlower
+      {/* <AnimatedFlower
         className="absolute left-0 top-1/2 -translate-y-1/2 w-32 opacity-50 pointer-events-none"
         delay={0.2}
+      /> */}
+      <img
+        src="/flowey-image.png"
+        alt="Flowey"
+        className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-52 opacity-100 pointer-events-none"
       />
 
       <div className="container mx-auto px-4 relative z-10">
@@ -51,7 +56,7 @@ export default function CountdownTimer({ targetDate }: CountdownTimerProps) {
           viewport={{ once: true }}
           className="text-center mb-8"
         >
-          <h2 className="text-2xl md:text-3xl font-light text-[#d88c6a] mb-8">
+          <h2 className="text-2xl md:text-3xl font-light text-[#55104d] mb-8">
             Contando los días para celebrar juntos
           </h2>
         </motion.div>
@@ -76,10 +81,10 @@ function TimeUnit({ value, label, delay }: { value: number; label: string; delay
       viewport={{ once: true }}
       className="flex flex-col items-center"
     >
-      <div className="w-16 md:w-24 h-16 md:h-24 flex items-center justify-center bg-[#fff9f2] border border-[#f3d5b5] rounded-lg mb-2">
-        <span className="text-2xl md:text-4xl font-light text-[#e6a55e]">{value}</span>
+      <div className="w-16 md:w-24 h-16 md:h-24 flex items-center justify-center bg-[#55104d] border border-[#0000] rounded-lg mb-2">
+        <span className="text-2xl md:text-4xl font-light text-[#ffff]">{value}</span>
       </div>
-      <span className="text-sm md:text-base text-[#8b9b8b]">{label}</span>
+      <span className="text-sm md:text-base text-[#55104d]">{label}</span>
     </motion.div>
   )
 }

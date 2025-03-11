@@ -15,8 +15,8 @@ export default function GiftRegistry() {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl md:text-4xl font-light text-[#8a7f71] mb-4">Mesa de Regalos</h2>
-          <p className="text-lg text-[#a39a8e] max-w-2xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-light text-[#55104d] mb-4">Mesa de Regalos</h2>
+          <p className="text-lg text-[#86895d] max-w-2xl mx-auto">
             Tu presencia es nuestro mejor regalo, pero si deseas obsequiarnos algo más, aquí te dejamos algunas opciones
           </p>
         </motion.div>
@@ -78,12 +78,12 @@ function BankCard({ bank, accountNumber, clabe, beneficiary, delay }: BankCardPr
 
       <div className="space-y-6">
         <div>
-          <p className="text-sm text-[#a39a8e] mb-2">Número de Cuenta:</p>
+          <p className="text-sm text-[#86895d] mb-2">Número de Cuenta:</p>
           <div className="flex items-center justify-between">
             <p className="text-[#8a7f71]">{accountNumber}</p>
             <button
               onClick={() => copyToClipboard(accountNumber, "account")}
-              className="text-[#8a7f71] hover:text-[#a39a8e] transition-colors"
+              className="text-[#8a7f71] hover:text-[#86895d] transition-colors"
             >
               {copiedAccount ? <Check className="h-5 w-5" /> : <Copy className="h-5 w-5" />}
             </button>
@@ -91,12 +91,12 @@ function BankCard({ bank, accountNumber, clabe, beneficiary, delay }: BankCardPr
         </div>
 
         <div>
-          <p className="text-sm text-[#a39a8e] mb-2">CLABE:</p>
+          <p className="text-sm text-[#86895d] mb-2">CLABE:</p>
           <div className="flex items-center justify-between">
             <p className="text-[#8a7f71]">{clabe}</p>
             <button
               onClick={() => copyToClipboard(clabe, "clabe")}
-              className="text-[#8a7f71] hover:text-[#a39a8e] transition-colors"
+              className="text-[#8a7f71] hover:text-[#86895d] transition-colors"
             >
               {copiedClabe ? <Check className="h-5 w-5" /> : <Copy className="h-5 w-5" />}
             </button>
@@ -104,7 +104,7 @@ function BankCard({ bank, accountNumber, clabe, beneficiary, delay }: BankCardPr
         </div>
 
         <div>
-          <p className="text-sm text-[#a39a8e] mb-2">Beneficiario:</p>
+          <p className="text-sm text-[#86895d] mb-2">Beneficiario:</p>
           <p className="text-[#8a7f71]">{beneficiary}</p>
         </div>
       </div>

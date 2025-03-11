@@ -17,8 +17,7 @@ const montserrat = Montserrat({
 
 export const metadata: Metadata = {
   title: "Lauri & Saúl - Invitación de Boda",
-  description: "Te invitamos a celebrar nuestro día especial",
-    generator: 'v0.dev'
+  description: "Te invitamos a celebrar nuestro día especial"   
 }
 
 export default function RootLayout({

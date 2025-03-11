@@ -33,10 +33,7 @@ export default function Gallery() {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl md:text-4xl font-light text-[#8a7f71] mb-4">Nuestra Historia</h2>
-          <p className="text-lg text-[#a39a8e] max-w-2xl mx-auto">
-            Algunos momentos especiales que hemos compartido juntos
-          </p>
+          <h2 className="text-3xl md:text-4xl font-light text-[#55104d] mb-4">Galería de Fotos</h2>          
         </motion.div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-5xl mx-auto">

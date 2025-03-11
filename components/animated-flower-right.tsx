@@ -3,12 +3,13 @@
 import { motion } from "framer-motion"
 import Image from "next/image"
 
-interface AnimatedFlowerProps {
+interface AnimatedFlowerRightProps {
   className?: string
   delay?: number
 }
 
-export default function AnimatedFlower({ className = "", delay = 0 }: AnimatedFlowerProps) {
+
+export default function AnimatedFlowerRight({ className = "", delay = 0 }: AnimatedFlowerRightProps) {
   return (
     <motion.div
       initial={{ opacity: 0, scale: 0.5 }}
@@ -21,7 +22,7 @@ export default function AnimatedFlower({ className = "", delay = 0 }: AnimatedFl
       className={className}
     >
       <Image
-      src="/flores.png"
+      src="/flores-right.png"
       alt="Watercolor flowers"
       width={300}
       height={400}
@@ -30,5 +31,4 @@ export default function AnimatedFlower({ className = "", delay = 0 }: AnimatedFl
     </motion.div>
   )
 }
-
 

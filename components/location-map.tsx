@@ -14,8 +14,8 @@ export default function LocationMap() {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl md:text-4xl font-light text-[#8a7f71] mb-4">Ubicación</h2>
-          <p className="text-lg text-[#a39a8e] max-w-2xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-light text-[#55104d] mb-4">Ubicación</h2>
+          <p className="text-lg text-[#86895d] max-w-2xl mx-auto">
             Te esperamos en este hermoso lugar para celebrar juntos
           </p>
         </motion.div>
@@ -50,7 +50,7 @@ export default function LocationMap() {
 
           <div className="p-8 text-center">
             <h3 className="text-xl font-light text-[#8a7f71] mb-2">Hacienda Tovares</h3>
-            <p className="text-[#a39a8e] mb-4">Cadereyta, Querétaro</p>
+            <p className="text-[#86895d] mb-4">Cadereyta, Querétaro</p>
 
             <a 
               href="https://maps.app.goo.gl/TN16Rme6r4SmaM65A?g_st=com.google.maps.preview.copy" 

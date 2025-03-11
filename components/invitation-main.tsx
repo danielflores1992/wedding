@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion"
 import AnimatedFlower from "./animated-flower"
+import AnimatedFlowerRight from "./animated-flower-right"
 
 interface InvitationMainProps {
   weddingDate: Date
@@ -26,11 +27,11 @@ export default function InvitationMain({ weddingDate }: InvitationMainProps) {
       <div className="max-w-4xl w-full mx-auto relative">
         {/* Decorative flowers */}
         <AnimatedFlower
-          className="absolute -left-20 top-0 w-48 opacity-70 -rotate-12 pointer-events-none"
+          className="absolute -left-20 top-[0] w-150 h-200 opacity-70 -rotate-12 pointer-events-none"
           delay={0.5}
         />
-        <AnimatedFlower
-          className="absolute -right-20 bottom-0 w-48 opacity-70 rotate-12 scale-x-[-1] pointer-events-none"
+        <AnimatedFlowerRight
+          className="absolute -right-20 bottom-[-10] w-150 h-200 opacity-70 -rotate-12 pointer-events-none"
           delay={0.8}
         />
 
@@ -41,10 +42,10 @@ export default function InvitationMain({ weddingDate }: InvitationMainProps) {
             initial="hidden"
             animate="visible"
             variants={textVariants}
-            className="text-5xl md:text-7xl font-light text-[#e6a55e] mb-4 tracking-wider"
+            className="text-5xl md:text-7xl font-light text-[#55104d] mb-4 tracking-wider"
           >
             LAURI
-            <span className="block text-3xl md:text-4xl my-2 text-[#d88c6a]">&</span>
+            <span className="block text-3xl md:text-4xl my-2 text-[#621176]">&</span>
             SAÚL
           </motion.h1>
 
@@ -53,7 +54,7 @@ export default function InvitationMain({ weddingDate }: InvitationMainProps) {
             initial="hidden"
             animate="visible"
             variants={textVariants}
-            className="text-2xl md:text-3xl font-light text-[#d88c6a] mt-12 mb-4"
+            className="text-2xl md:text-3xl font-light text-[#86895d] mt-12 mb-4"
           >
             ¡NOS CASAMOS!
           </motion.h2>
@@ -63,7 +64,7 @@ export default function InvitationMain({ weddingDate }: InvitationMainProps) {
             initial="hidden"
             animate="visible"
             variants={textVariants}
-            className="text-lg md:text-xl text-[#8b9b8b] max-w-xl mx-auto my-8"
+            className="text-lg md:text-xl text-[#86895d] max-w-xl mx-auto my-8"
           >
             ¡Y nos encantaría celebrar <br></br>este día tan especial junto a ti!
           </motion.p>
@@ -73,12 +74,12 @@ export default function InvitationMain({ weddingDate }: InvitationMainProps) {
             initial="hidden"
             animate="visible"
             variants={textVariants}
-            className="text-4xl md:text-5xl font-light text-[#e6a55e] my-12 flex justify-center items-center gap-4"
+            className="text-4xl md:text-5xl font-light text-[#86895d] my-12 flex justify-center items-center gap-4"
           >
             <span>23</span>
-            <span className="text-2xl text-[#d88c6a]">|</span>
+            <span className="text-2xl text-[#86895d]">|</span>
             <span>08</span>
-            <span className="text-2xl text-[#d88c6a]">|</span>
+            <span className="text-2xl text-[#86895d]">|</span>
             <span>2025</span>
           </motion.div>
 
