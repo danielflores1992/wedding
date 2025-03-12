@@ -12,14 +12,20 @@ export default function Gallery() {
   const images = [
     "/img/img1.jpg?height=600&width=800",
     "/img/img2.jpg?height=600&width=800",
-    "/img/img3.jpg?height=600&width=800",
-    "/img/img4.jpg?height=600&width=800",
-    "/img/img5.jpg?height=600&width=800",
-    "/img/img6.jpg?height=600&width=800",
-    "/img/img7.jpg?height=600&width=800",
+    "/img/img3.jpg?height=600&width=800",    
+    "/img/img5.jpg?height=600&width=800",        
     "/img/img8.jpg?height=600&width=800",
     "/img/img9.jpg?height=600&width=800",
     "/img/img10.jpg?height=600&width=800",
+    "/img/img11.jpg?height=600&width=800",
+    "/img/img12.jpg?height=600&width=800",
+    "/img/img13.jpg?height=600&width=800",
+    "/img/img14.jpg?height=600&width=800",
+    "/img/img15.jpg?height=600&width=800",
+    "/img/img16.jpg?height=600&width=800",
+    "/img/img17.jpg?height=600&width=800",
+    "/img/img18.jpg?height=600&width=800",
+    "/img/img19.jpg?height=600&width=800",
   ]
 
 

@@ -56,7 +56,7 @@ export default function LocationMap() {
               href="https://maps.app.goo.gl/TN16Rme6r4SmaM65A?g_st=com.google.maps.preview.copy" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="inline-block px-6 py-3 bg-[#8a7f71] text-white rounded-full hover:bg-[#776c5f] transition-colors"
+              className="inline-block px-6 py-3 bg-[#55104d] text-white rounded-full hover:bg-[#776c5f] transition-colors"
             >
               Cómo llegar
             </a>

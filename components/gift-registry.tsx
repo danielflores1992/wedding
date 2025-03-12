@@ -23,18 +23,16 @@ export default function GiftRegistry() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
           <BankCard
-            bank="Banco Nacional"
-            accountNumber="1234 5678 9012 3456"
-            clabe="012 345 678 901 234 567"
-            beneficiary="Lauri & Saúl"
+            bank="Banco BBVA"
+            accountNumber="4152 3142 8752 3107"            
+            beneficiary="Saúl Moshe Barr Espinoza"
             delay={0.2}
           />
 
           <BankCard
-            bank="Banco Internacional"
-            accountNumber="9876 5432 1098 7654"
-            clabe="987 654 321 098 765 432"
-            beneficiary="Lauri & Saúl"
+            bank="Banco NU"
+            accountNumber="638180000158189929"            
+            beneficiary="Saúl Moshe Barr Espinoza"
             delay={0.4}
           />
         </div>
@@ -45,13 +43,12 @@ export default function GiftRegistry() {
 
 interface BankCardProps {
   bank: string
-  accountNumber: string
-  clabe: string
+  accountNumber: string  
   beneficiary: string
   delay: number
 }
 
-function BankCard({ bank, accountNumber, clabe, beneficiary, delay }: BankCardProps) {
+function BankCard({ bank, accountNumber,  beneficiary, delay }: BankCardProps) {
   const [copiedAccount, setCopiedAccount] = useState(false)
   const [copiedClabe, setCopiedClabe] = useState(false)
 
@@ -90,18 +87,7 @@ function BankCard({ bank, accountNumber, clabe, beneficiary, delay }: BankCardPr
           </div>
         </div>
 
-        <div>
-          <p className="text-sm text-[#86895d] mb-2">CLABE:</p>
-          <div className="flex items-center justify-between">
-            <p className="text-[#8a7f71]">{clabe}</p>
-            <button
-              onClick={() => copyToClipboard(clabe, "clabe")}
-              className="text-[#8a7f71] hover:text-[#86895d] transition-colors"
-            >
-              {copiedClabe ? <Check className="h-5 w-5" /> : <Copy className="h-5 w-5" />}
-            </button>
-          </div>
-        </div>
+      
 
         <div>
           <p className="text-sm text-[#86895d] mb-2">Beneficiario:</p>

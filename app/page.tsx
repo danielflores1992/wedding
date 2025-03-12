@@ -7,6 +7,7 @@ import GiftRegistry from "@/components/gift-registry"
 import Gallery from "@/components/gallery"
 import Footer from "@/components/footer"
 import FallingPetals from "@/components/FallingPetals"
+import RSVPSection from "@/components/rsvp-section"
 
 export default function Home() {
   const weddingDate = new Date("2025-08-23T17:00:00")
@@ -19,6 +20,7 @@ export default function Home() {
       <EventDetails />
       <Itinerary />
       <LocationMap />
+      <RSVPSection />
       <GiftRegistry />
       <Gallery />
       <Footer />
