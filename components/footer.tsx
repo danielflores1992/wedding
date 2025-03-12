@@ -15,7 +15,7 @@ export default function Footer() {
           <p>Hay momentos en la vida que son </p>
           <p>muy especiales por sí solos,</p>
           <p>pero al compartirlos</p>
-          <p>con personas tan especiales como tú</p>
+          <p>con personas como tú</p>
           <p>se convierten en momentos imposibles de olvidar</p>
         </div>
       </div>

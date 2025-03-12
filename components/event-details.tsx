@@ -71,8 +71,7 @@ export default function EventDetails() {
             className="bg-white p-8 rounded-lg shadow-sm border border-[#e9e4dd]"
           >
             <h3 className="text-2xl font-light text-[#55104d] mb-4 text-center">Hospedaje</h3>
-            <div className="space-y-4 text-center">
-              <p className="text-[#86895d]">23 de Agosto, 2025</p>
+            <div className="space-y-4 text-center">              
               {/* <p className="text-[#86895d]">6:45 PM</p> */}
               <p className="text-[#86895d]">Hacienda Tovares</p>
               <p className="text-[#86895d]">Cadereyta, Querétaro</p>
