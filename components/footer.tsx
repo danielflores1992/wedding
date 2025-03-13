@@ -14,8 +14,7 @@ export default function Footer() {
         <div className="mt-4 mb-4 text-[#86895d] text-sm font-bold">
           <p>Hay momentos en la vida que son </p>
           <p>muy especiales por sí solos,</p>
-          <p>pero al compartirlos</p>
-          <p>con personas como tú</p>
+          <p>pero al compartirlos con personas como tú</p>
           <p>se convierten en momentos imposibles de olvidar</p>
         </div>
       </div>

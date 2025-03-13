@@ -81,7 +81,7 @@ export default function EventDetails() {
                 rel="noopener noreferrer"
                 className="inline-block mt-4 px-4 py-1 bg-[#55104d] text-white rounded-lg shadow-md hover:bg-[#7a6f64] transition-colors duration-300 mr-4"
               >
-                ¡Conoce los paquetes!
+                ¡Conoce las tarifas!
               </a>
               <a
                 href="tel:+524411391996"
