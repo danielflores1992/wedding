@@ -45,7 +45,7 @@ export default function CountdownTimer({ targetDate }: CountdownTimerProps) {
       <img
         src="/flowey-image.png"
         alt="Flowey"
-        className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-52 opacity-100 pointer-events-none"
+        className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-52 opacity-55 pointer-events-none"
       />
 
       <div className="container mx-auto px-4 relative z-10">

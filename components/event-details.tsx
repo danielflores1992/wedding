@@ -90,7 +90,7 @@ export default function EventDetails() {
                 ¡Reserva tu lugar!
               </a>
 
-
+              <p className="text-sm text-[#86895d]">Reserva y obtén 10% de descuento mencionando que asistirás a la boda.</p>
             </div>
           </motion.div>
 

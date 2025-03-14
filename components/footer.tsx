@@ -11,19 +11,19 @@ export default function Footer() {
         <p className="text-[#86895d] mb-6 ">¡Esperamos contar con tu presencia!</p>
         <p className="text-[#86895d] text-sm">23 de Agosto, 2025</p>
 
-        <div className="mt-4 mb-4 text-[#86895d] text-sm font-bold">
+        <div className="mt-4 mb-6 text-[#86895d] text-sm font-medium">
           <p>Hay momentos en la vida que son </p>
           <p>muy especiales por sí solos,</p>
           <p>pero al compartirlos con personas como tú</p>
           <p>se convierten en momentos imposibles de olvidar</p>
         </div>
       </div>
-      <div className="absolute left-1/2 transform -translate-x-1/2 bottom-0 w-64 h-64 opacity-40 pointer-events-none">
+      <div className="absolute left-1/2 transform -translate-x-1/2 bottom-0 w-96 h-96 opacity-70 pointer-events-none">
         <Image
           src="/elegant-floral-4.png"
           alt="Elegant floral element"
-          width={256}
-          height={256}
+          width={384}
+          height={384}
           className="object-contain"
         />
       </div>
